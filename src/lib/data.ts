@@ -64,23 +64,23 @@ export const projectsData = [
     {
         title: "Renhouse",
         description:
-            "Renhouse is a user-friendly platform that simplifies the process of booking holiday destionations. Whether you're a property owner looking to rent out your soace or a traveler in search of the perfect place to stay.",
+            "User-friendly platform that simplifies the process of booking holiday destionations. Whether you're a property owner looking to rent out your soace or a traveler in search of the perfect place to stay.",
         tags: ["React", "JavaScript", "Tailwind", "NodeJs", "MongoDB"],
         imageUrl: renhouse,
     },
     {
-        title: "rmtDev",
+        title: "project 2",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-        imageUrl: '',
+            "info about project 2",
+        tags: ["React", "JavaScript", "CSS", "Tailwind", "Context", "NodeJs", "MongoDB"],
+        imageUrl: renhouse,
     },
     {
-        title: "Word Analytics",
+        title: "project 3",
         description:
-            "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-        imageUrl: '',
+            "info about project 3",
+        tags: ["React", "TypeScript", "MongoDB", "Tailwind", "NestJs"],
+        imageUrl: renhouse,
     },
 ] as const;
 

@@ -10,7 +10,7 @@ import fotoPerfil from '../../public/fotoPerfil.png';
 
 const Intro = () => {
     return (
-        <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+        <section id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className='flex items-center justify-center'>
                 <div className='relative'>
                     <motion.div
@@ -65,24 +65,28 @@ const Intro = () => {
             >
                 <Link
                     href="#contact"
-                    className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full"
+                    className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
                 >
-                    Contact me here <BsArrowRight />
+                    Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                 </Link>
                 <a
-                    href=""
-                    className="bg-white px-7 py-3 flex items-center gap-2 rounded-full"
-                >Download CV <HiDownload />
+                    href="/Dreyan-Franco-CV.pdf"
+                    download
+                    className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+                >
+                    Download CV <HiDownload className="opacity-60 group-hover:translate-y-1" />
                 </a>
                 <a
-                    href=""
-                    className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full"
+                    href="https://www.linkedin.com/in/dreyanfranco/"
+                    target="_blank"
+                    className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
                 >
                     <BsLinkedin />
                 </a>
                 <a
-                    href=""
-                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full"
+                    href="https://github.com/dreyanfranco"
+                    target="_blank"
+                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
                 >
                     <FaGithubSquare />
                 </a>
