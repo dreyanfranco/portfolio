@@ -1,4 +1,3 @@
-'use client'
 
 import { sendEmail } from '@/actions/sendEmail'
 import { useSectionInView } from '@/lib/hooks'
