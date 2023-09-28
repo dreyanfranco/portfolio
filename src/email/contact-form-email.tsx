@@ -27,10 +27,10 @@ export default function ContactFormEmail({
             <Head />
             <Preview>New message from portfolio site</Preview>
             {/* <Tailwind> */}
-            <Body style={{ background: '#f9f9fb' }}>
+            <Body>
                 <Container>
-                    <Section style={{ marginTop: '2.5rem', marginBottom: '2.5rem', padding: '1rem 2.5rem 1rem 2.5rem', borderRadius: '0.375rem' }} className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
-                        <Heading style={{ lineHeight: '1.25', color: 'black' }} className="leading-tight">
+                    <Section style={{ marginTop: '2.5rem', marginBottom: '2.5rem', padding: '1rem 2.5rem 1rem 2.5rem', borderRadius: '0.375rem' }}>
+                        <Heading style={{ lineHeight: '1.25', color: 'black' }}>
                             Message from the contact form
                         </Heading>
                         <Text>{message}</Text>
@@ -40,6 +40,6 @@ export default function ContactFormEmail({
                 </Container>
             </Body>
             {/* </Tailwind> */}
-        </Html>
+        </Html >
     );
 }
