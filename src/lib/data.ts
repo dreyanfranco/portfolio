@@ -67,6 +67,7 @@ export const projectsData = [
             "User-friendly platform that simplifies the process of booking holiday destionations. Whether you're a property owner looking to rent out your soace or a traveler in search of the perfect place to stay.",
         tags: ["React", "JavaScript", "Tailwind", "NodeJs", "MongoDB"],
         imageUrl: renhouse,
+        link: 'https://renhouse-frontend.onrender.com/'
     },
     {
         title: "project 2",
@@ -74,6 +75,7 @@ export const projectsData = [
             "info about project 2",
         tags: ["React", "JavaScript", "CSS", "Tailwind", "Context", "NodeJs", "MongoDB"],
         imageUrl: renhouse,
+        link: 'https://renhouse-frontend.onrender.com/'
     },
     {
         title: "project 3",
@@ -81,6 +83,7 @@ export const projectsData = [
             "info about project 3",
         tags: ["React", "TypeScript", "MongoDB", "Tailwind", "NestJs"],
         imageUrl: renhouse,
+        link: 'https://renhouse-frontend.onrender.com/'
     },
 ] as const;
 
