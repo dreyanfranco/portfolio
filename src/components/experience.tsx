@@ -1,5 +1,6 @@
 "use client"
 
+import { useTheme } from '@/context/theme-context';
 import { experiencesData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 import React from 'react';
@@ -9,6 +10,7 @@ import SectionHeading from './section-heading';
 
 const Experience = () => {
     const { ref } = useSectionInView('Experience')
+    const { theme } = useTheme()
 
     return (
         <section
@@ -21,7 +23,7 @@ const Experience = () => {
                     <VerticalTimelineElement
                         key={index}
                         contentStyle={{
-                            background: "#f3f4f6",
+                            background: theme === 'light' ? "#f3f4f6" : 'rgba(255,255,255,0.05)',
                             boxShadow: "none",
                             border: "1px solid rgba(0, 0, 0, 0.05)",
                             textAlign: "left",
