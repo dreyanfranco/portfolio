@@ -39,7 +39,7 @@ export const experiencesData = [
         title: "Frontend Developer",
         company: "Sharehood",
         description:
-            "My frontend stack includes React, JavaScript, MaterialUI and Context. For the backend I was working with Python and Postgres.",
+            "Frontend stack includes React, JavaScript, MaterialUI and Context. For the backend I was working with Nodejs and MongoDB.",
         icon: React.createElement(CgWorkAlt),
         date: " Mar 2023 - present",
     },
@@ -51,14 +51,14 @@ export const experiencesData = [
         icon: React.createElement(CgWorkAlt),
         date: "Feb 2022 - Feb 2023",
     },
-    {
-        title: "Fullstack Developer",
-        company: "Elavon",
-        description:
-            "I worked in group of 5 developers where I built features using TypeScript, React, NodeJs and MongoDB. I collaborated with different deparments through out the project.",
-        icon: React.createElement(CgWorkAlt),
-        date: "Jun 2021 - Dec 2021",
-    },
+    // {
+    //     title: "Fullstack Developer",
+    //     company: "Elavon",
+    //     description:
+    //         "I worked in group of 5 developers where I built features using TypeScript, React, NodeJs and MongoDB. I collaborated with different deparments through out the project.",
+    //     icon: React.createElement(CgWorkAlt),
+    //     date: "Jun 2021 - Dec 2021",
+    // },
 ] as const
 
 export const projectsData = [
