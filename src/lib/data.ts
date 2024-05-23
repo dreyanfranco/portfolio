@@ -73,11 +73,10 @@ export const projectsData = [
     {
         title: "Holiyay",
         description:
-            "The platform features real-time availability, secure payment options, and personalized recommendations to enhance the overall booking experience. QuickBook aims to be a one-stop solution for all your booking needs, ensuring convenience, efficiency, and satisfaction for both service providers and customers.",
+            "QuickBook aims to be a one-stop solution for all your booking needs, ensuring convenience, efficiency, and satisfaction for both service providers and customers.",
         tags: [
             "React",
             "TypeScript",
-            "CSS",
             "Tailwind",
             "Playwright",
             "NodeJs",
