@@ -19,7 +19,7 @@ const About = () => {
         >
             <SectionHeading>About me</SectionHeading>
             <p className="mb-3">
-                I`&apos;`m fullstack developer with 2 years of experience in
+                I&apos;m fullstack developer with 2 years of experience in
                 creating dynamic and user-friendly web applications. My journey
                 in the tech world has equipped me with a balanced skill set in
                 both front-end and back-end development, enabling me to deliver
