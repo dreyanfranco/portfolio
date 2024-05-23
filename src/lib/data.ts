@@ -1,10 +1,11 @@
-import renhouse from "../../public/renhouse.png";
+import holiyay from "../../public/holiyay.png"
+import renhouse from "../../public/renhouse.png"
 // import rmtdevImg from "@/public/rmtdev.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import React from "react"
+import { CgWorkAlt } from "react-icons/cg"
+import { FaReact } from "react-icons/fa"
+import { LuGraduationCap } from "react-icons/lu"
 
 export const links = [
     {
@@ -31,7 +32,7 @@ export const links = [
         name: "Contact",
         hash: "#contact",
     },
-] as const;
+] as const
 
 export const experiencesData = [
     {
@@ -58,34 +59,41 @@ export const experiencesData = [
         icon: React.createElement(CgWorkAlt),
         date: "Jun 2021 - Dec 2021",
     },
-] as const;
+] as const
 
 export const projectsData = [
     {
         title: "Renhouse",
         description:
-            "User-friendly platform that simplifies the process of booking holiday destionations. Whether you're a property owner looking to rent out your soace or a traveler in search of the perfect place to stay.",
+            "User-friendly platform that simplifies the process of booking holiday destinations. Whether you're a property owner looking to rent out your soace or a traveler in search of the perfect place to stay.",
         tags: ["React", "JavaScript", "Tailwind", "NodeJs", "MongoDB"],
         imageUrl: renhouse,
-        link: 'https://renhouse-frontend.onrender.com/'
+        link: "https://renhouse-frontend.onrender.com/",
     },
     {
-        title: "project 2",
+        title: "Holiyay",
         description:
-            "info about project 2",
-        tags: ["React", "JavaScript", "CSS", "Tailwind", "Context", "NodeJs", "MongoDB"],
-        imageUrl: renhouse,
-        link: 'https://renhouse-frontend.onrender.com/'
+            "The platform features real-time availability, secure payment options, and personalized recommendations to enhance the overall booking experience. QuickBook aims to be a one-stop solution for all your booking needs, ensuring convenience, efficiency, and satisfaction for both service providers and customers.",
+        tags: [
+            "React",
+            "TypeScript",
+            "CSS",
+            "Tailwind",
+            "Playwright",
+            "NodeJs",
+            "MongoDB",
+        ],
+        imageUrl: holiyay,
+        link: "https://holiyay.onrender.com/",
     },
     {
-        title: "project 3",
-        description:
-            "info about project 3",
+        title: "Under construction",
+        description: "info about project 3",
         tags: ["React", "TypeScript", "MongoDB", "Tailwind", "NestJs"],
         imageUrl: renhouse,
-        link: 'https://renhouse-frontend.onrender.com/'
+        link: "https://renhouse-frontend.onrender.com/",
     },
-] as const;
+] as const
 
 export const skillsData = [
     "HTML",
@@ -102,6 +110,5 @@ export const skillsData = [
     "Nestjs",
     "Python",
     "Django",
-    "Docker"
-
-] as const;
+    "Docker",
+] as const
