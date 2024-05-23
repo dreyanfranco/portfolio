@@ -107,7 +107,7 @@ export const skillsData = [
     "Redux",
     "Express",
     "Nestjs",
-    "Python",
-    "Django",
+    "PostgreSQL",
+    "Github Actions",
     "Docker",
 ] as const
