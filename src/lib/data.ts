@@ -4,8 +4,6 @@ import renhouse from "../../public/renhouse.png"
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 import React from "react"
 import { CgWorkAlt } from "react-icons/cg"
-import { FaReact } from "react-icons/fa"
-import { LuGraduationCap } from "react-icons/lu"
 
 export const links = [
     {
@@ -36,18 +34,18 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Frontend Developer",
+        title: "Fullstack Developer",
         company: "Sharehood",
         description:
-            "Frontend stack includes React, JavaScript, MaterialUI and Context. For the backend I was working with Nodejs and MongoDB.",
+            "I focused on creating and maintaining a visually appealing and user-friendly marketplace frontend using React. I also collaborated on developing scalable microservices, utilized Docker for containerization, and translated Figma designs into interfaces with MaterialUI, enhancing the user experience.",
         icon: React.createElement(CgWorkAlt),
-        date: " Mar 2023 - present",
+        date: " Mar 2023 - Oct 2023",
     },
     {
         title: "Fullstack Developer",
         company: "Proxya",
         description:
-            "I worked in group of 5 developers where I built features using TypeScript, React, NodeJs and MongoDB. I collaborated with different deparments through out the project.",
+            "I built robust web application features using TypeScript, React, NodeJS, and MongoDB. I implemented CI/CD workflows with GitHub Actions, performed end-to-end testing to ensure software reliability, and contributed to designing REST APIs for efficient project and employee management.",
         icon: React.createElement(CgWorkAlt),
         date: "Feb 2022 - Feb 2023",
     },
@@ -73,7 +71,7 @@ export const projectsData = [
     {
         title: "Holiyay",
         description:
-            "QuickBook aims to be a one-stop solution for all your booking needs, ensuring convenience, efficiency, and satisfaction for both service providers and customers.",
+            "Holiyay aims to be a one-stop solution for all your booking needs, ensuring convenience, efficiency, and satisfaction for both service providers and customers.",
         tags: [
             "React",
             "TypeScript",
@@ -87,10 +85,10 @@ export const projectsData = [
     },
     {
         title: "Under construction",
-        description: "info about project 3",
+        description: "API REST",
         tags: ["React", "TypeScript", "MongoDB", "Tailwind", "NestJs"],
         imageUrl: renhouse,
-        link: "https://renhouse-frontend.onrender.com/",
+        link: "https://nest-booking.onrender.com/",
     },
 ] as const
 
@@ -100,14 +98,16 @@ export const skillsData = [
     "JavaScript",
     "TypeScript",
     "React",
-    "Node.js",
+    "NodeJs",
     "Git",
     "Tailwind",
     "MongoDB",
     "Redux",
     "Express",
-    "Nestjs",
+    "NestJs",
     "PostgreSQL",
     "Github Actions",
     "Docker",
+    "Jest",
+    "Playwright",
 ] as const

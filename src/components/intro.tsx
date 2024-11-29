@@ -1,26 +1,27 @@
-"use client";
-import { useActiveSectionContext } from "@/context/active-section-context";
-import { useSectionInView } from "@/lib/hooks";
-import { motion } from "framer-motion";
-import Image from 'next/image';
-import Link from "next/link";
-import React from 'react';
-import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
-import { FaGithubSquare } from "react-icons/fa";
-import { HiDownload } from "react-icons/hi";
-import fotoPerfil from '../../public/fotoPerfil.png';
+"use client"
+import { useActiveSectionContext } from "@/context/active-section-context"
+import { useSectionInView } from "@/lib/hooks"
+import { motion } from "framer-motion"
+import Image from "next/image"
+import Link from "next/link"
+import React from "react"
+import { BsArrowRight, BsLinkedin } from "react-icons/bs"
+import { FaGithubSquare } from "react-icons/fa"
+import { HiDownload } from "react-icons/hi"
+import fotoPerfil from "../../public/fotoPerfil.png"
 
 const Intro = () => {
-    const { ref } = useSectionInView('Home', 0.5)
+    const { ref } = useSectionInView("Home", 0.5)
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
     return (
         <section
             ref={ref}
             id="home"
-            className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
-            <div className='flex items-center justify-center'>
-                <div className='relative'>
+            className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+        >
+            <div className="flex items-center justify-center">
+                <div className="relative">
                     <motion.div
                         initial={{ opacity: 0, scale: 0 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -31,10 +32,10 @@ const Intro = () => {
                     >
                         <Image
                             src={fotoPerfil}
-                            alt='Dreyan Portrait'
+                            alt="Dreyan Portrait"
                             priority={true}
                             quality="95"
-                            className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl'
+                            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
                         />
                     </motion.div>
                     <motion.span
@@ -58,9 +59,12 @@ const Intro = () => {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <span className="font-bold">Hello, I&apos;m Dreyan.</span> I&apos;m a{" "}
+                <span className="font-bold">Hello, I&apos;m Dreyan.</span>{" "}
+                I&apos;m a{" "}
                 <span className="font-bold">full-stack developer</span> with{" "}
-                <span className="font-bold">2 years</span> of experience. My focus revolves around crafting web applications using modern technologies.
+                <span className="font-bold">2 years</span> of experience. My
+                focus revolves around crafting web applications using modern
+                technologies.
             </motion.h1>
 
             <motion.div
@@ -79,14 +83,16 @@ const Intro = () => {
                         setTimeOfLastClick(Date.now())
                     }}
                 >
-                    Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+                    Contact me here{" "}
+                    <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                 </Link>
                 <a
-                    href="/Dreyan-Franco-CV-esp.pdf"
+                    href="/Dreyan-Franco-CV.pdf"
                     download
                     className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
                 >
-                    Download CV <HiDownload className="opacity-60 group-hover:translate-y-1" />
+                    Download CV{" "}
+                    <HiDownload className="opacity-60 group-hover:translate-y-1" />
                 </a>
                 <div className="flex gap-2">
                     <a
@@ -103,7 +109,6 @@ const Intro = () => {
                     >
                         <FaGithubSquare />
                     </a>
-
                 </div>
             </motion.div>
         </section>
