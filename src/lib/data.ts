@@ -1,4 +1,5 @@
 import holiyay from "../../public/holiyay.png"
+import nestApi from "../../public/nest-api.png"
 import renhouse from "../../public/renhouse.png"
 // import rmtdevImg from "@/public/rmtdev.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -84,10 +85,11 @@ export const projectsData = [
         link: "https://holiyay.onrender.com/",
     },
     {
-        title: "Under construction",
-        description: "API REST",
-        tags: ["React", "TypeScript", "MongoDB", "Tailwind", "NestJs"],
-        imageUrl: renhouse,
+        title: "Booking API",
+        description:
+            "A scalable RESTful API built with NestJS, MongoDB, TypeScript, and Stripe. It includes user authentication, hotel booking management, secure payment integration, and extensive unit testing with Jest to ensure reliability and performance",
+        tags: ["NestJs", "TypeScript", "MongoDB", "Jest"],
+        imageUrl: nestApi,
         link: "https://nest-booking.onrender.com/",
     },
 ] as const
